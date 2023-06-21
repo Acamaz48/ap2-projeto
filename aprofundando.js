@@ -5,8 +5,9 @@ window.onload = () => {
 let divDetalhes = document.getElementById('detalhes');
 let btVoltar = document.getElementById('voltar');
 
+
 btVoltar.addEventListener('click',()=>{
-    windown.location.href = '../';
+    window.location.href = '../';
 });
 
 function lerInfos(){
